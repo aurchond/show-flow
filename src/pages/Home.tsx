@@ -1,7 +1,7 @@
 const Home = () => {
   return (
     <div className="max-w-4xl mx-auto">
-      <h1 className="text-3xl font-bold mb-6">Welcome to TV Show Tracker</h1>
+      <h1 className="text-3xl font-bold mb-6">Welcome to ShowFlow</h1>
       <p className="mb-4">
         Track your favorite shows, mark episodes as watched, and keep a diary of
         your watching history.

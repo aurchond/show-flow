@@ -2,20 +2,20 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="bg-primary-700 text-white shadow-md">
+    <nav className="bg-gray-800 shadow-md">
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
-          <Link to="/" className="text-xl font-bold">
-            TV Show Tracker
+          <Link to="/" className="text-xl font-bold text-white">
+            ShowFlow
           </Link>
           <div className="flex items-center space-x-4">
-            <Link to="/" className="hover:text-primary-200">
+            <Link to="/" className="text-gray-300 hover:text-white">
               Home
             </Link>
-            <Link to="/search" className="hover:text-primary-200">
+            <Link to="/search" className="text-gray-300 hover:text-white">
               Search
             </Link>
-            <button className="bg-primary-500 px-3 py-1 rounded hover:bg-primary-600">
+            <button className="bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">
               Login
             </button>
           </div>
