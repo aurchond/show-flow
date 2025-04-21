@@ -4,45 +4,45 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <h3 className="text-lg font-semibold text-white">ShowFlow</h3>
+            <h3 className="text-lg font-semibold text-white">showflow</h3>
             <p className="text-sm text-gray-300">
-              Track your favorite shows with ease
+              track your favorite shows with ease
             </p>
           </div>
 
           <div className="flex space-x-8">
             <div>
-              <h4 className="text-sm font-semibold mb-2 text-white">Links</h4>
+              <h4 className="text-sm font-semibold mb-2 text-white">links</h4>
               <ul className="text-sm text-gray-300">
                 <li className="mb-1">
                   <a href="#" className="hover:text-white">
-                    Home
+                    home
                   </a>
                 </li>
                 <li className="mb-1">
                   <a href="#" className="hover:text-white">
-                    Search
+                    search
                   </a>
                 </li>
                 <li className="mb-1">
                   <a href="#" className="hover:text-white">
-                    About
+                    about
                   </a>
                 </li>
               </ul>
             </div>
 
             <div>
-              <h4 className="text-sm font-semibold mb-2 text-white">Legal</h4>
+              <h4 className="text-sm font-semibold mb-2 text-white">legal</h4>
               <ul className="text-sm text-gray-300">
                 <li className="mb-1">
                   <a href="#" className="hover:text-white">
-                    Privacy Policy
+                    privacy policy
                   </a>
                 </li>
                 <li className="mb-1">
                   <a href="#" className="hover:text-white">
-                    Terms of Service
+                    terms of service
                   </a>
                 </li>
               </ul>

@@ -1,4 +1,4 @@
-# 📺 TV Show Tracker
+# 📺 showflow
 
 A modern, responsive web app to track your favorite TV shows — built with **React**, **TypeScript**, and powered by a full serverless AWS backend.
 

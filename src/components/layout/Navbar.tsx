@@ -6,17 +6,17 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           <Link to="/" className="text-xl font-bold text-white">
-            ShowFlow
+            showflow
           </Link>
           <div className="flex items-center space-x-4">
             <Link to="/" className="text-gray-300 hover:text-white">
-              Home
+              home
             </Link>
             <Link to="/search" className="text-gray-300 hover:text-white">
-              Search
+              search
             </Link>
             <button className="bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">
-              Login
+              login
             </button>
           </div>
         </div>
